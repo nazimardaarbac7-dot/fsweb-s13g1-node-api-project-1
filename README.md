@@ -81,7 +81,7 @@ Bunları `api/users/model.js` içinde bulabilirsiniz. Tüm bu fonksiyonlar birer
 
 - Eğer _user_ belirtilen `id` mevcut değilse:
 
-  - HTTP `404` (Not Found) yanıtlar.
+  - HTTP `404` (Not Found) yantlar.
   - şu JSON'u döndürür: `{ message: "Belirtilen ID'li kullanıcı bulunamadı" }`.
 
 - _user_ veritabanından alınırken bir hata oluşursa:
